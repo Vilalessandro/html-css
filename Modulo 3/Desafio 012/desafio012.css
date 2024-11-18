@@ -1,8 +1,38 @@
 @charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
 
-header{
+:root{
+
+    --fonte-titolo: 'Passion One', sans-serif;
+    --fonte-conteudo: 'Sriracha', verdana;    
+}
+
+header > h1{
+    font-family: var(--fonte-titolo);
+    font-size: 5em;
+    margin: 0px;
     background-color: black;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 60px 0px 0px 0px;
+}
+
+header > p {
+    font-family: var(--fonte-titolo);
+    font-size: 1.3em;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0px 0px 35px 0px;   
+}
+
+main{
+    font-family: var(--fonte-conteudo);
+    font-weight: normal;
+    font-size: 1.6em;
+    line-height: 2.2em;
+    padding: 55px 30px;
 }

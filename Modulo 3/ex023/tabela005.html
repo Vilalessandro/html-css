@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios de tabela</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        h1, h2{
+            width: 500px;
+            text-align: center;
+        }
+
+        table{
+            width: 800px;
+            border-collapse: collapse;
+        }
+
+        #container{
+            overflow-x: auto;
+        }
+
+        p{
+            text-align: justify;
+            padding: 8px;
+        }
+
+        caption{
+            font-size: 1.5em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        .cnome{
+            background-color: aqua;
+        }
+
+        col.csexo, col.cidade /*Configurações para duas classes juntas*/{
+            background-color: bisque;
+            text-align: center;
+        }
+
+        col.cprof{
+            background-color: cornflowerblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio de tabela</h1>
+    <h2>Tabelas Responsivas</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non tenetur laudantium eligendi maiores id, labore pariatur, reprehenderit voluptates vitae ipsa incidunt expedita laborum temporibus ex ratione harum quasi veniam perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo tempore ab fugiat, a provident sed itaque vero non quae incidunt vel ipsa dolores corrupti error voluptas iusto recusandae exercitationem accusamus?</p>
+
+    <div id="container">
+        <table>
+            <colgroup>
+                <col class="cnome">
+                <col class="csexo">
+                <col class="cidade">
+                <col class="cprof" span="2">
+                <col class="cnatu">
+            </colgroup>
+            <caption>Cadastro</caption>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+                <th scope="col">Naturalidade</th>
+            </tr>
+            <tr>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Jornalista</td>
+                <td>São Paulo/SP</td>
+            </tr>
+            <tr>
+                <td>Claudio</td>
+                <td>M</td>
+                <td>28</td>
+                <td>Programador</td>
+                <td>Campinas/SP</td>
+            </tr>
+            <tr>
+                <td>Gustavo</td>
+                <td>M</td>
+                <td>42</td>
+                <td>Professor</td>
+                <td>Dourados/MS</td>
+            </tr>
+            <tr>
+                <td>Hélio</td>
+                <td>M</td>
+                <td>19</td>
+                <td>Vendendor</td>
+                <td>Porto Alegre/RS</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>F</td>
+                <td>39</td>
+                <td>Médica</td>
+                <td>Ourinhos/MG</td>
+            </tr>
+            <tr>
+                <td>Otávio</td>
+                <td>M</td>
+                <td>22</td>
+                <td>Nutricionista</td>
+                <td>Belém/PA</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

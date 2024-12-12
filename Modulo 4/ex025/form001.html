@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        * {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        form{
+            margin: auto;
+            width: 300px;
+            height: 300px;
+            border: 1px solid black;
+            padding: 5px;
+        }
+        
+        form > p{
+            font-weight: bold;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!--
+        Metodos para envio de formulários:
+
+        1 - GET (Padrão); Dados não sensiveis. Até 3000 mil bytes(Aproximandamente 3 mil letras).
+        2 - POST; Dados Sensiveis. Mais de 3 mil bytes. Envio de arquivos.
+    -->
+    <h1>Meu Primeiro Formulário</h1> <!--Sempre usar Label ao fazer formularios-->
+    <form action="cadastro.php" autocomplete="off">
+        <p><label for="inome">Nome:</label> <input type="text" name="nome" id="inome"></p>
+        <p><label for="isobrenome">Sobrenome:</label> <input type="text" name="sobrenome" id="isobrenome"></p>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+</body>
+</html>

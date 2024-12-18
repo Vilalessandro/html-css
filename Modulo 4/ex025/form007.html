@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>    
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="iest">Regione</label>
+            <select name="estado" id="iest">
+                
+                <option value="">--- Sceglie la sua regione ---</option>
+                <optgroup label="Nord-ovest">
+                    <option value="MG">Valle d'Aosta</option>
+                    <option value="RJ">Liguria</option>
+                    <option value="SP">Lombardia</option>
+                    <option value="#">Piemonte</option>
+                </optgroup>
+
+                <optgroup label="Nord-est">
+                    <option value="MA">Trentino-Alto Adige</option>
+                    <option value="#">Veneto</option>
+                    <option value="#">Friuli-Venezia Giulia</option>
+                    <option value="#">Emilia-Romagna</option>
+                </optgroup>
+
+                <optgroup label="Centro">
+                    <option value="#">Toscana</option>
+                    <option value="#">Umbria</option>
+                    <option value="#">Marche</option>
+                    <option value="#">Lazio</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option>Administrador</option>
+                <option>Contador</option>
+                <option>Médico</option>
+            </datalist>
+        </p>
+            <label for="imsg">Mensagem</label> <br>
+            <textarea name="msg" id="imsg" placeholder="Escreva sua Mensagem aqui" style="resize: none;"></textarea> <!--Esse resize: none, impede o usuario de aumentar a area da msg.-->
+        <p>
+
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>

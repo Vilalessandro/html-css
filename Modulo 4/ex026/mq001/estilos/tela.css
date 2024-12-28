@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/*Estilo para telas*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 1em;
+}
+
+header{
+    background-color: #ce84509f ;
+}
+
+header > h1{
+    font-size: 2.5em;
+    text-align: center;
+}
+
+menu li{
+    background-color: #68270242;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+menu li > a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+menu ul{
+    list-style-type: none;
+    background-color: #d2691e;
+    color: white;
+} 
+
+article{
+    width: 400px;
+    display: block;
+    margin: auto;
+}
+
+article h2{
+    padding: 10px;
+}

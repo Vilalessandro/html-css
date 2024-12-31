@@ -4,14 +4,16 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0px;
     padding: 0px;
+    scrollbar-width: none;
 }
 
 body, html{
-    background-color: rgb(148, 148, 148);
+    background-color: rgba(148, 148, 148, 0.527);
 }
 
 header {
     background-color: rgb(148, 148, 148);
+
 }
 
 header > h1 {

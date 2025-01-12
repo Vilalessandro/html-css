@@ -1,0 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+div.container { /*PAI*/
+    margin: 5px;
+    background-color: #000000;
+    height: 100px;
+
+    /*-- Flex-flow = flex-direction + flex-wrap */
+    display: flex;
+    /*flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;*/
+    flex-flow: column wrap-reverse;
+
+}
+
+div.item { /*FILHO*/
+    background-color: #ff0000;
+    border: 1px solid #000000;
+    text-align: center;
+    flex: auto;
+
+}

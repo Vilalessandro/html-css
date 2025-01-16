@@ -1,0 +1,88 @@
+/* Teste feito antes de iniciar a aula do Guanabara.
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #808080;
+}
+
+p {
+    width: 150px;
+    height: 150px;
+    padding: 15px;
+    margin: 5px;
+    border: 1px solid #000000;
+    color: #ffffff;
+    border-radius: 15px;
+}
+
+p#um {
+    background-color: #00ffff;
+}
+
+p#dois {
+    background-color: #ffe4c4;
+}
+
+p#tres {
+    background-color: #a52a2a;
+}
+
+p#quatro {
+    background-color: #ffff00;
+}*/
+
+div.container {
+    background-color: #46b4466c;
+
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    height: 400px;
+}
+
+div.item {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 20px;
+}
+
+#i1{
+    background-color: antiquewhite;
+}
+
+#i2{
+    align-self: auto;
+    background-color: yellow;
+}
+
+#i3{
+    align-self: flex-end;
+    background-color: violet;
+}
+
+#i4{
+    background-color: tomato;
+}
+
+#i5{
+    align-self: center;
+    background-color: steelblue;
+}
+
+#i6{
+    background-color: slategray;
+}
+
+#i7{
+    align-self: center;
+    background-color: saddlebrown;
+}

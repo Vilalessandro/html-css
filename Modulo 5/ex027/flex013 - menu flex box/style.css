@@ -26,15 +26,17 @@ header {
 }
 
 header > h1 {
+    font-size: 3em;
+    text-shadow: 2px 2px 0px #00000083;
     text-align: center;
-    border: 1px dotted black;
+    /*border: 1px dotted black;*/
     flex: 0 0 200px;
 }
 
 header > nav {
     padding: 10px;
     text-align: center;
-    border: 1px dotted black;
+    /*border: 1px dotted black;*/
 
     display: flex;
     flex-flow: row wrap;

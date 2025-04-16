@@ -4,3 +4,42 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+header, #normal {
+    margin: 15px;
+    padding: 10px;
+}
+
+p, h1, h2{
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+#flex-content {
+    background-color: lightgray;
+    padding: 25px;    
+}
+
+#media-text {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+#text-media {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#media {
+    justify-content: center;
+    align-items: center;
+    min-width: 632px;
+}

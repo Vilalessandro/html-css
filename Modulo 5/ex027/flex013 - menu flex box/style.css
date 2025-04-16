@@ -26,6 +26,7 @@ header {
 }
 
 header > h1 {
+    margin-left: 7px;
     font-size: 3em;
     text-shadow: 2px 2px 0px #00000083;
     text-align: center;
@@ -46,10 +47,10 @@ header > nav {
 nav > a {
     color: #ffffff;
     background-color: #000000;
-    border-radius: 7px;
+    border-radius: 10px;
     text-decoration: none;
-    padding: 5px;
-    margin:1px;
+    padding: 7px;
+    margin:3px;
 }
 
 nav > a:hover {

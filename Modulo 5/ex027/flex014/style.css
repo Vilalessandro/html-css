@@ -24,22 +24,48 @@ p, h1, h2{
 #flex-content {
     background-color: lightgray;
     padding: 25px;    
+
+    display: flex;
+    flex-flow: column nowrap;
 }
 
 #media-text {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap-reverse;
+    display: flex;   
+    flex-flow: row wrap-reverse; 
+    margin-bottom: 10px;
 }
 
 #text-media {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
 }
 
 #media {
-    justify-content: center;
-    align-items: center;
-    min-width: 632px;
+    flex: 1 1 500px;
+}
+
+#media > img {
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 10px;
+}
+
+#media > iframe {
+    display: block;
+    margin: auto;
+    width: 80%;
+    border-radius: 10px;
+}
+
+#text {
+    padding: 15px;
+    flex: 1 1 500px;
+}
+
+footer {
+    
+    padding: 15px;
+    margin: auto;
+    text-align: center;
 }

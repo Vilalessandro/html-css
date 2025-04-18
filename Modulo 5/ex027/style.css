@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+}
+
+.container {
+    background-color: cornflowerblue;
+    border: 2px dashed black;
+    margin: 10px;
+    padding: 10px;
+
+    display: grid;
+    grid-template-columns: auto auto auto; /*A quantidade de auto representa a qtd. de colunas.*/
+    grid-template-rows: 100px 100px 100px;
+    gap: 5px;
+}
+
+.item {
+    border: 2px dashed #000000;
+    padding: 5px;
+    margin: 2px;
+}

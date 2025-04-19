@@ -1,4 +1,5 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -16,7 +17,7 @@ body {
 
     display: grid;
     grid-template-columns: auto auto auto; /*A quantidade de auto representa a qtd. de colunas.*/
-    grid-template-rows: 100px 100px 100px;
+    grid-template-rows: 150px 100px 150px ;
     gap: 5px;
 }
 
@@ -24,4 +25,16 @@ body {
     border: 2px dashed #000000;
     padding: 5px;
     margin: 2px;
+}
+
+#different {
+    background-color: aqua;
+    grid-row: 1;
+    grid-column: 3;
+    grid-area: span 2 / span 1;
+}
+
+#itemG {
+    background-color: tomato;
+    grid-area: span 1 / span 2;
 }

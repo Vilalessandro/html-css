@@ -16,7 +16,8 @@
      height: 100vh;
      padding: 15px;
      display: grid;
-     grid-template-columns: 1fr 2fr 1fr;
+     grid-template-columns: 2fr 200px;
+     /*When I use the pixel , I limit the area of the box. */
      grid-template-rows: 2fr 1fr 5fr 1fr;
      gap: 8px;
      text-align: right;
@@ -29,7 +30,6 @@
      grid-area: 1 / 1 / 2 / 4;
      align-content: center;
      border-radius: 10px 10px;
-     border: 1px #000000 solid;
  }
 
  .caixa2 {
@@ -39,27 +39,24 @@
      grid-area: 2 / 1/ 3 / 4;
      align-content: center;
      border-radius: 10px 10px;
-     border: 1px #000000 solid;
  }
 
  .caixa3 {
      background-color: pink;
      text-align: center;
      padding: 10px;
-     grid-area: 3 / 1 / 4 / 3;
+     grid-area: 3 / 1 / 4 / 2;
      align-content: center;
      border-radius: 10px 10px;
-     border: 1px #000000 solid;
  }
 
  .caixa4 {
      background-color: steelblue;
      text-align: center;
      padding: 10px;
-     grid-area: 3 /3 / 4 / 4;
+     grid-area: 3 /2 / 4 / 4;
      align-content: center;
      border-radius: 10px 10px;
-     border: 1px #000000 solid;
  }
 
  .caixa5 {
@@ -69,5 +66,5 @@
      grid-area: 4 /1 / 5 / 4;
      align-content: center;
      border-radius: 10px 10px;
-     border: 1.5px #000000 solid;
+    
  }

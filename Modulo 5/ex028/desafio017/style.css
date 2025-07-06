@@ -12,14 +12,14 @@
      background-color: darkgray;
  }
 
- #container {
+ .grid-container {
      height: 100vh;
      padding: 15px;
      display: grid;
      grid-template-columns: 2fr 200px;
      /*When I use the pixel , I limit the area of the box. */
      grid-template-rows: 2fr 1fr 5fr 1fr;
-     gap: 8px;
+     gap: 5px;
      text-align: right;
  }
 

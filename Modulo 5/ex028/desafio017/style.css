@@ -45,6 +45,7 @@
      background-color: pink;
      text-align: center;
      padding: 10px;
+     grid-area: article;
      grid-area: 3 / 1 / 4 / 2;
      align-content: center;
      border-radius: 10px 10px;
@@ -54,6 +55,7 @@
      background-color: steelblue;
      text-align: center;
      padding: 10px;
+     grid-area: aside;
      grid-area: 3 /2 / 4 / 4;
      align-content: center;
      border-radius: 10px 10px;
@@ -63,8 +65,9 @@
      background-color: red;
      text-align: center;
      padding: 10px;
+     grid-area: footer;
      grid-area: 4 /1 / 5 / 4;
      align-content: center;
      border-radius: 10px 10px;
-    
+
  }

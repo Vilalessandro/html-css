@@ -1,0 +1,17 @@
+@media screen and (max-width: 600px) {
+    .container-one {
+        background-color: rgb(54, 91, 214);
+        padding: 20px;
+        margin: 10px;
+        display: grid;
+        grid-template-areas: 
+            "header"
+            "nav"
+            "main"
+            "aside"
+            "footer"
+        ;
+        grid-template-rows: 150px 50px 1fr 50px;
+        grid-template-columns: 1fr;
+    }
+}

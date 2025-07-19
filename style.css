@@ -6,11 +6,9 @@
     box-sizing: border-box;
 }
 
-.container-one {
-    background-color: thistle;    
-    margin: 10px;
+.container-one {  
     display: grid;
-    gap: 10px;
+    gap: 5px;
     grid-template-areas:
         "header header header"
         "nav nav nav"
@@ -45,9 +43,7 @@ main {
 }
 
 aside {
-    grid-area: aside;
-    background-color: burlywood;
-    padding: 10px;
+    grid-area: aside;    
 }
 
 footer {
